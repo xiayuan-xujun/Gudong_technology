@@ -1,0 +1,2 @@
+export CUDA_VISIBLE_DEVICES=2
+python -m vllm.entrypoints.openai.api_server --model /model_base/model_hub/qwen/Qwen2-0___5B --dtype half --api-key token-abc123 --port 8084 --trust-remote-code --served-model-name chatbot --tensor-parallel-size 1 --gpu-memory-utilization 0.8
