@@ -7,6 +7,8 @@
 - 启动Qwen2-0.5大模型：
   - 下载对应的Qwen模型: python vllm/download_model.py
   - 启动Qwen2-0.5大模型： bash vllm/run_qwen0.5B_vllm.sh
+- 下载相应的模型(或者使用原始的Qanything代码)
+    - python vllm/down.py
 - 进入QAnything中启动RAG服务：bash scripts/run_for_openai_api_with_gpu_in_Linux_or_WSL.sh
   - 传入paper:《PP-YOLO: An Effective and Efficient Implementation of Object Detector》
   - 输入问题：What tricks are used when training pp-yole?
